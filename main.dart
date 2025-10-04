@@ -1,4 +1,3 @@
-// main.dart - 扩展版本
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:path/path.dart' as path;
@@ -96,7 +95,7 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  int _counter = 0;
+  int _counter = 0; // 这里定义了_counter变量
 
   void _incrementCounter() {
     setState(() {
@@ -118,7 +117,7 @@ class _MyHomePageState extends State<MyHomePage> {
               'You have pushed the button this many times:',
             ),
             Text(
-              '$_counter',
+              '\$_counter', // 使用字符串插值显示计数器
               style: Theme.of(context).textTheme.headline4,
             ),
           ],
