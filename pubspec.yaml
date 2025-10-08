@@ -1,0 +1,29 @@
+name: codeeditor
+description: "An Code Editor."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.9.2 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  highlighter: ^0.1.1
+  file_picker: ^10.3.3
+  path_provider: ^2.1.5
+  flutter_launcher_icons: ^0.14.4
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+flutter_icons:
+  android: true
+  image_path: "icon.png"
+  adaptive_icon_background: "#FFFFFF"  # 自适应图标背景色
